@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<slideshow>
+    <slide>
+        <id>1</id>
+        <title>Chrysanthemum</title>
+        <subtitle>Chrysanthemum subtitle</subtitle>
+        <image>Chrysanthemum.jpg</image>
+        <short>Chrysanthemum short</short>
+        <long>Chrysanthemum long</long>
+    </slide>
+    <slide>
+        <id>2</id>
+        <title>Desert</title>
+        <subtitle>Desert subtitle</subtitle>
+        <image>Desert.jpg</image>
+        <short>Desert short</short>
+        <long>Desert long</long>
+    </slide>
+    <slide>
+        <id>3</id>
+        <title>Hydrangeas</title>
+        <subtitle>Hydrangeas subtitle</subtitle>
+        <image>Hydrangeas.jpg</image>
+        <short>Hydrangeas short</short>
+        <long>Hydrangeas long</long>
+    </slide>
+    <slide>
+        <id>4</id>
+        <title>Jellyfish</title>
+        <subtitle>Jellyfish subtitle</subtitle>
+        <image>Jellyfish.jpg</image>
+        <short>Jellyfish short</short>
+        <long>Jellyfish long</long>
+    </slide>
+</slideshow>

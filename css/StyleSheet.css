@@ -1,0 +1,77 @@
+section#slideshow {
+    height: 500px;
+}
+
+section#slideshow {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+section#slideshow.preload {
+    background-color: gray;
+}
+
+section#slideshow.error {
+    background-color: red;
+}
+
+section#slideshow.loading {
+    background-color: yellow;
+}
+
+section#slideshow.loaded {
+    background-color: blue;
+}
+
+section#slideshow a {
+    cursor: pointer;
+}
+
+section#slideshow div#autoplay a.active {
+    color: white;
+}
+
+section#slideshow menu a.loading {
+    color: white;
+}
+
+section#slideshow menu a.loaded {
+    color: black;
+}
+
+section#slideshow article img {
+    width: 100%;
+    height: 100%;
+}
+
+section#slideshow article {
+    display: none;
+}
+
+section#slideshow article div {
+    background-image: url(/img/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 10%;
+    width: 30%;
+    height: 20vw;
+}
+
+section#slideshow article.loading img {
+    visibility: hidden;
+}
+
+section#slideshow article.loaded img {
+    visibility: visible;
+}
+
+section#slideshow menu a.active {
+    color: red;
+}
+
+section#slideshow article.active {
+    display: block;
+}
